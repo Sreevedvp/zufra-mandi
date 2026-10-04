@@ -9,7 +9,28 @@ npm install
 npm run dev
 ```
 
-## Production
+## Deploy to Vercel
+
+This project is not Create React App. Its React components use the App Router layout and can be built with Next.js on Vercel. The existing Vinext/Sites build remains available separately.
+
+1. Push these files, including `vercel.json` and the updated `package.json`, to your Git repository.
+2. In Vercel, set Root Directory to the directory containing this `package.json`: `zufra-site` if your repository contains the parent folder, or `.` if this folder itself is the repository root.
+3. Set Framework Preset to **Next.js**, not Create React App.
+4. Build Command: `npm run build:vercel`. Output Directory: `.next`. Install Command: `npm ci`. The checked-in `vercel.json` sets these values.
+5. Use Node.js **22.x** or a newer version compatible with the package engines, then redeploy.
+
+No application environment variables are required for this restaurant page. Menu and contact details remain placeholders. The Vercel deployment does not use the Sites hosting access controls; configure Vercel Deployment Protection if a private preview is required.
+
+To reproduce the Vercel build locally:
+
+```sh
+npm run build:vercel
+npm run start:vercel
+```
+
+For local Next.js development: `npm run dev:vercel`.
+
+## Sites production
 
 ```sh
 npm run build
