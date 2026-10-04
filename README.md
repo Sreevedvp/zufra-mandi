@@ -28,3 +28,4 @@ npm run build
 Rotating and scroll-responsive food platter; floating embers; scrolling marquee; scroll reveals; navigation section tracking; reading progress; menu category tabs; keyboard-accessible dish details; mobile navigation; FAQ accordions; back-to-top; motion toggle and system reduced-motion support.
 
 Visual inspiration: https://www.nahdimandi.com/ and https://www.tashco.in/. Original branding, copy, layout, and generated food image; reference-site assets and customer testimonials are not reused.
+# zufra-mandi
