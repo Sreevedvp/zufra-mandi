@@ -8,8 +8,8 @@ export const metadata: Metadata = {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/brand/zufra-rust.jpeg",
-    shortcut: "/brand/zufra-rust.jpeg",
+    icon: "/brand/zufra-symbol-rust.png",
+    shortcut: "/brand/zufra-symbol-rust.png",
   },
 };
 
